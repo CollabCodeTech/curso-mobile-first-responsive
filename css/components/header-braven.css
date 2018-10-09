@@ -1,0 +1,6 @@
+.header-braven > .title {
+  font-size: 1.176em;
+  text-transform: uppercase;
+  color: var(--color-zero);
+  letter-spacing: 1.2em;
+}
