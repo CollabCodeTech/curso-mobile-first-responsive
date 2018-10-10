@@ -1,0 +1,8 @@
+:root {
+  --spacing-container-top: 7.389vh;
+  --spacing-container-left: 9.6vw;
+  --spacing-container-right: 9.6vw;
+  --spacing-container-bottom: 2.71vh;
+
+  --spacing-very-small: 6px;
+}

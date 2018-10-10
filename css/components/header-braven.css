@@ -1,3 +1,9 @@
+.header-braven {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header-braven > .title {
   font-size: 1.176em;
   text-transform: uppercase;
