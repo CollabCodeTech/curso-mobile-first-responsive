@@ -1,9 +1,12 @@
 .container-braven {
+  position: relative;
   background: url("../../img/braven.png") no-repeat -250px 0;
   background-size: auto 100%;
   box-sizing: border-box;
+  width: 100vw;
   height: 100%;
   font-weight: bold;
   padding: var(--spacing-container-top) var(--spacing-container-right)
     var(--spacing-container-bottom) var(--spacing-container-left);
+  overflow-x: hidden;
 }
