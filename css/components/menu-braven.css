@@ -23,6 +23,7 @@
     var(--spacing-container-bottom) var(--spacing-container-left);
   transform: translateX(100%);
   pointer-events: none;
+  z-index: 10;
 
   transition: transform 200ms linear;
 }
