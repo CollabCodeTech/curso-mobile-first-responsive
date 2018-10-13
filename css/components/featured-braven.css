@@ -62,9 +62,14 @@
   color: var(--color-first);
 }
 
+.featured-braven > .subtitle > span {
+  background: url("../../img/star.svg") no-repeat left center;
+  background-size: 25px;
+  padding-left: 28px;
+}
+
 .featured-braven > .subtitle > small {
   font-size: 1rem;
   color: var(--color-first-light);
   letter-spacing: 0.029em;
-  margin-left: var(--spacing-very-small);
 }
