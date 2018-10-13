@@ -1,4 +1,6 @@
 .container-braven {
+  display: flex;
+  flex-direction: column;
   position: relative;
   background: url("../../img/braven.png") no-repeat -250px 0;
   background-size: auto 100%;

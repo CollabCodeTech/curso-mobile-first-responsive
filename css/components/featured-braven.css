@@ -1,4 +1,10 @@
 .featured-braven {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  justify-content: space-between;
+  padding-bottom: var(--spacing-very-big);
+  padding-left: 32px;
 }
 
 .featured-braven > .action {
@@ -39,7 +45,7 @@
   text-transform: uppercase;
   color: var(--color-first);
   transform-origin: left top;
-  transform: rotate(-90deg);
+  transform: rotate(-90deg) translate(-100px, 30px);
 }
 
 .featured-braven > .subtitle {
