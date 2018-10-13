@@ -11,4 +11,12 @@
   padding: var(--spacing-container-top) var(--spacing-container-right)
     var(--spacing-container-bottom) var(--spacing-container-left);
   overflow-x: hidden;
+  min-width: 375px;
+  min-height: 812px;
+}
+
+@media (min-width: 980px) {
+  .container-braven {
+    background-position: center;
+  }
 }
